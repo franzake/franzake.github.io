@@ -30,14 +30,37 @@ Additionally, I briefly worked as AI Biology expert at the AI startup Mercor, wh
 
 ## Featured Talks
 
-### Nextflow Summit Boston — SCALPEL: Scalable Single-Cell Isoform Analysis
-
-<iframe width="100%" height="450"
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:20px;">
+<div>
+<iframe width="100%" height="220"
 src="https://www.youtube.com/embed/vvmfF6eCkEE"
-title="Nextflow Summit Boston Talk"
+title="Nextflow Summit Boston"
 frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
+**Nextflow Summit Boston**  
+</div>
 
-Presentation at the Nextflow Summit in Boston discussing scalable and reproducible workflows for single-cell isoform quantification and alternative polyadenylation analysis using Nextflow and nf-core methodologies.
+<div>
+<iframe width="100%" height="220"
+src="https://www.youtube.com/embed/VIDEO_ID"
+title="Conference Talk"
+frameborder="0"
+allowfullscreen>
+</iframe>
+**Conference Title**  
+Short description of the talk.
+</div>
+
+<div>
+<iframe width="100%" height="220"
+src="https://www.youtube.com/embed/VIDEO_ID"
+title="Conference Talk"
+frameborder="0"
+allowfullscreen>
+</iframe>
+**Conference Title**  
+Short description of the talk.
+</div>
+
+</div>
