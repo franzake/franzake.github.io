@@ -7,11 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Dr. Franz Arnold Ake is a computational biologist specializing in single-cell transcriptomics, alternative polyadenylation, and isoform regulation. His research focuses on developing computational methods and bioinformatic pipelines to characterize post-transcriptional regulation and differential isoform usage at single-cell resolution.
+Hello !
 
-During his PhD under the mentorship of Dr. Mireya Plass at the University of Barcelona and IDIBELL Research Institute in Barcelona, Spain, he developed approaches for isoform quantification and differential isoform usage analysis in single-cell datasets.
+I am a Postdoctoral research scientist at Stanford - Department of Pathology, where my current research focuses on multi-omics data integration, spatial transcriptomics, and cancer genomics to study tumor biology,tissue heterogeneity, and disease-associated molecular programs from high-dimensional sequencing data.
 
-He is currently a Postdoctoral Scholar in the Department of Pathology at Stanford University, sponsored by Dr Brooke Howitt and Dr Vivek Charu. His current research focuses on multi-omics data integration, spatial transcriptomics, and cancer genomics to study tumor biology, tissue heterogeneity, and disease-associated molecular programs from high-dimensional sequencing data.
+Previously, during my PhD study under the mentorship of Dr. Mireya Plass at the IDIBELL Research Institute and P-CMR[C] group in Barcelona, Spain, I developed computational approaches for isoform quantification and differential isoform usage analysis characterization at single-cell resolution.
+
+Additionally, I briefly worked as AI Biology expert at the AI startup Mercor, where I trained AI models for performing currents bioinformatic tasks, INRAe public research institute (Toulouse, France) & at LNHE EDF-lab (Chatou, France)
+
 
 ## Research Interests
 
@@ -22,14 +25,19 @@ He is currently a Postdoctoral Scholar in the Department of Pathology at Stanfor
 - **Cancer genomics**: Tumor heterogeneity, fusion transcripts, and disease mechanisms
 - **Multi-omics integration**: Integrative analysis of high-dimensional sequencing data
 - **Reproducible workflows**: Scalable bioinformatics pipelines using Nextflow and nf-core
+- **AI in genomics**: AI/ML methods to analyze and interpret complex genetic and multiomic data.
 
-## Highlighted Projects
 
-### SCALPEL
-A Nextflow/nf-core-oriented pipeline for single-cell isoform quantification and alternative polyadenylation analysis, enabling scalable and reproducible analysis of transcript-level regulation in single-cell datasets.
+## Featured Talks
 
-### RNA-seq Fusion Analysis
-Development of computational workflows for fusion transcript detection, including contributions to STAR-Fusion and nf-core/rnafusion pipelines for cancer genomics applications.
+### Nextflow Summit Boston — SCALPEL: Scalable Single-Cell Isoform Analysis
 
-### Reproducible Workflow Engineering
-Design and implementation of scalable omics pipelines adhering to Nextflow and nf-core community standards, ensuring reproducibility across HPC and cloud environments.
+<iframe width="100%" height="450"
+src="https://www.youtube.com/embed/vvmfF6eCkEE"
+title="Nextflow Summit Boston Talk"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+Presentation at the Nextflow Summit in Boston discussing scalable and reproducible workflows for single-cell isoform quantification and alternative polyadenylation analysis using Nextflow and nf-core methodologies.
