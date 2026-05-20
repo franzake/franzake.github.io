@@ -1,3 +1,4 @@
+gem "json", "~> 2.7"
 source 'https://rubygems.org'
 
 group :jekyll_plugins do

@@ -9,56 +9,53 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **PhD in Bioinformatics**, University of Barcelona / IDIBELL, 2025
+  * Program for Predictive and Personalized Medicine of Cancer
+  * Supervisor: Dr. Mireya Plass
+  * Focus: Single-cell transcriptomics, isoform quantification, alternative polyadenylation
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **MSc in Bioinformatics**, Université Paris Diderot / Paris 7, 2019
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Research Experience
 
-Publications
-======
+* **Postdoctoral Scholar** (2025–Present)
+  * Department of Pathology, Stanford University
+  * Supervisor: Dr. Vivek Charu
+  * Research: Multi-omics data integration, spatial transcriptomics, cancer genomics
+
+* **PhD Researcher** (2021–2025)
+  * IDIBELL Research Institute, Barcelona, Spain
+  * Plass Group
+  * Developed computational approaches for isoform quantification and differential isoform usage analysis in single-cell datasets
+
+## Technical Expertise
+
+* **Programming & Workflow Development**: Nextflow, nf-core, R, Python, Linux/HPC
+* **Genomics Analysis**: scRNA-seq, bulk RNA-seq, long-read transcriptomics, spatial transcriptomics
+* **Computational Methods**: Isoform quantification, alternative polyadenylation analysis, fusion transcript detection
+* **Infrastructure**: Cloud computing, HPC clusters, reproducible research environments
+
+## Honors and Awards
+
+* **Nextflow Ambassador**, Seqera, 2025–Present
+* **FPI Predoctoral Fellowship Grant**, Ministry of Science and Innovation, Government of Spain, 2021–2025
+* **Keystone Symposia Scholarship**, Single Cell Biology: Pushing New Frontiers in the Life Sciences, April 2022
+* **Winner Team**, Meet-U Protein Prediction Program Competition, Université Sorbonne Paris Cité, 2019
+
+## Professional Service
+
+* **Member**, International Society for Computational Biology, 2023–Present
+* **Nextflow Ambassador**, Seqera, 2025–Present
+* **Contributor**, nf-core Community / Seqera, 2021–Present
+
+## Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+## Projects & Software
+
+See [Software](/software/) and [Projects](/projects/) pages for detailed descriptions of research software and computational pipelines.
