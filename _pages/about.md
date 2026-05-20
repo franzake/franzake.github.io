@@ -11,7 +11,7 @@ Dr. Franz Arnold Ake is a computational biologist specializing in single-cell tr
 
 During his PhD under the mentorship of Dr. Mireya Plass at the University of Barcelona and IDIBELL Research Institute in Barcelona, Spain, he developed approaches for isoform quantification and differential isoform usage analysis in single-cell datasets.
 
-He is currently a Postdoctoral Scholar in the Department of Pathology at Stanford University, sponsored by Dr. Vivek Charu. His current research focuses on multi-omics data integration, spatial transcriptomics, and cancer genomics to study tumor biology, tissue heterogeneity, and disease-associated molecular programs from high-dimensional sequencing data.
+He is currently a Postdoctoral Scholar in the Department of Pathology at Stanford University, sponsored by Dr Brooke Howitt and Dr Vivek Charu. His current research focuses on multi-omics data integration, spatial transcriptomics, and cancer genomics to study tumor biology, tissue heterogeneity, and disease-associated molecular programs from high-dimensional sequencing data.
 
 ## Research Interests
 
