@@ -38,7 +38,6 @@ title="Nextflow Summit Boston"
 frameborder="0"
 allowfullscreen>
 </iframe>
-**Nextflow Summit Boston**  
 </div>
 
 <div>
@@ -48,7 +47,6 @@ title="StandUp Science"
 frameborder="0"
 allowfullscreen>
 </iframe>
-IDIBELL StandUp Science talks
 </div>
 
 </div>
