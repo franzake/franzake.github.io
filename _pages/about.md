@@ -42,7 +42,7 @@ allowfullscreen>
 
 <div>
 <iframe width="100%" height="70"
-src="src="https://www.youtube.com/embed/TAW2ChFlluA"
+src="https://www.youtube.com/embed/TAW2ChFlluA"
 title="StandUp Science"
 frameborder="0"
 allowfullscreen>
