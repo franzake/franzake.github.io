@@ -43,12 +43,11 @@ allowfullscreen>
 
 <div>
 <iframe width="100%" height="70"
-src="https://www.youtube.com/watch?v=TAW2ChFlluA&pp=ygUJZnJhbnogYWtl"
+src="https://www.youtube.com/watch?v=TAW2ChFlluA"
 title="StandUp Science"
 frameborder="0"
 allowfullscreen>
 </iframe>
-**Conference Title**  
 IDIBELL StandUp Science talks
 </div>
 
