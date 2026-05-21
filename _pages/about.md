@@ -30,21 +30,25 @@ Additionally, I briefly worked as AI Biology expert at the AI startup [Mercor](h
 
 ## Featured Talks
 
-<div style="display:flex; gap:18px; flex-wrap:wrap;">
+<div style="display:flex; flex-direction:row; gap:18px; overflow-x:auto;">
 
-<iframe width="260" height="150"
+<iframe
+width="320"
+height="180"
 src="https://www.youtube.com/embed/vvmfF6eCkEE"
 title="Nextflow Summit Boston"
+style="border-radius:10px; flex-shrink:0;"
 frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
 
-<iframe width="260" height="150"
+<iframe
+width="320"
+height="180"
 src="https://www.youtube.com/embed/TAW2ChFlluA"
 title="StandUp Science"
+style="border-radius:10px; flex-shrink:0;"
 frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
 
