@@ -6,150 +6,204 @@ author_profile: true
 ---
 
 <style>
+.publications-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
 .publication-item {
-  margin-bottom: 2.5em;
-  padding: 1.5em;
-  background: #f8f9fa;
-  border-left: 4px solid #8C1515;
-  border-radius: 4px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  gap: 22px;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(150,150,150,0.25);
 }
 
-.publication-item:hover {
-  transform: translateX(4px);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.publication-item:last-child {
+  border-bottom: none;
 }
 
-.pub-title {
-  font-size: 1.2em;
-  font-weight: 600;
-  margin-bottom: 0.5em;
+.publication-thumbnail {
+  flex-shrink: 0;
+}
+
+.publication-thumbnail img {
+  width: 190px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #f0f0f0;
+}
+
+.publication-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-content h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
   line-height: 1.4;
 }
 
-.pub-title a {
-  color: #2c3e50;
+.publication-content h3 a {
+  color: inherit;
   text-decoration: none;
 }
 
-.pub-title a:hover {
+.publication-content h3 a:hover {
   color: #8C1515;
 }
 
-.pub-authors {
+.publication-content p {
+  margin: 4px 0;
+}
+
+.authors {
+  font-size: 0.95rem;
   color: #555;
-  margin-bottom: 0.5em;
-  font-size: 0.95em;
 }
 
-.pub-venue {
-  font-style: italic;
+.authors strong {
+  font-weight: 600;
+}
+
+.venue {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.summary {
+  font-size: 0.95rem;
   color: #666;
-  margin-bottom: 0.5em;
+  line-height: 1.5;
 }
 
-.pub-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 1em;
+.pub-links {
+  margin-top: 6px;
 }
 
-.pub-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 3px;
-  font-size: 0.85em;
+.pub-links a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #8C1515;
   text-decoration: none;
-  transition: opacity 0.2s;
+  margin-right: 8px;
 }
 
-.pub-badge:hover {
-  opacity: 0.8;
+.pub-links a:hover {
+  text-decoration: underline;
 }
 
-.badge-doi {
-  background: #0066cc;
-  color: white;
+.pub-links a:not(:last-child)::after {
+  content: " ·";
+  color: #999;
+  margin-left: 8px;
 }
 
-.badge-citations {
-  background: #28a745;
-  color: white;
+.scholar-links {
+  margin-bottom: 2em;
+  font-size: 0.95rem;
 }
 
-.badge-code {
-  background: #6c757d;
-  color: white;
+.scholar-links a {
+  color: #8C1515;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-.badge-year {
-  background: #17a2b8;
-  color: white;
+.scholar-links a:hover {
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
   .publication-item {
-    background: #1a1a1a;
-    border-left-color: #b83a4b;
+    border-bottom-color: rgba(255,255,255,0.15);
   }
-  .pub-title a {
-    color: #e0e0e0;
+  
+  .publication-thumbnail img {
+    background: #2a2a2a;
   }
-  .pub-title a:hover {
-    color: #b83a4b;
+  
+  .publication-content h3 a:hover {
+    color: #d45555;
   }
-  .pub-authors, .pub-venue {
-    color: #b0b0b0;
+  
+  .authors {
+    color: #aaa;
+  }
+  
+  .venue {
+    color: #ddd;
+  }
+  
+  .summary {
+    color: #999;
+  }
+  
+  .pub-links a {
+    color: #d45555;
+  }
+  
+  .scholar-links a {
+    color: #d45555;
+  }
+}
+
+@media (max-width: 700px) {
+  .publication-item {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .publication-thumbnail img {
+    width: 100%;
+    height: auto;
   }
 }
 </style>
 
-My research has been published in leading scientific journals. Below is a list of peer-reviewed publications from my work on single-cell transcriptomics, isoform regulation, and computational genomics.
+<div class="publications-container">
 
-{% if site.author.googlescholar %}
-  <p><a href="https://scholar.google.com/citations?user=2ShbCuEAAAAJ" target="_blank">📊 View my Google Scholar profile</a> | <a href="https://orcid.org/0000-0003-0192-0370" target="_blank">🔗 ORCID: 0000-0003-0192-0370</a></p>
-{% endif %}
+<p class="scholar-links">
+  <a href="https://scholar.google.com/citations?user=2ShbCuEAAAAJ" target="_blank">Google Scholar</a> · 
+  <a href="https://orcid.org/0000-0003-0192-0370" target="_blank">ORCID</a>
+</p>
 
----
-
-{% include base_path %}
-
-{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-
-{% for post in sorted_pubs %}
 <div class="publication-item">
-  <div class="pub-title">
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
-    {% else %}
-      {{ post.title }}
-    {% endif %}
+  <div class="publication-thumbnail">
+    <img src="/images/publications/scalpel.png" alt="SCALPEL publication" onerror="this.style.display='none'">
   </div>
-  
-  <div class="pub-venue">{{ post.citation | strip_html }}</div>
-  
-  {% if post.excerpt %}
-  <div class="pub-excerpt">{{ post.excerpt }}</div>
-  {% endif %}
-  
-  <div class="pub-meta">
-    {% if post.date %}
-      <span class="pub-badge badge-year">{{ post.date | date: "%Y" }}</span>
-    {% endif %}
-    
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" class="pub-badge badge-doi" target="_blank">📄 Paper</a>
-    {% endif %}
-    
-    {% if post.content contains "Citations:" %}
-      {% assign citation_count = post.content | split: "Citations: " | last | split: "**" | first | strip %}
-      <span class="pub-badge badge-citations">📊 {{ citation_count }} citations</span>
-    {% endif %}
-    
-    {% if post.content contains "github.com" %}
-      <a href="{{ post.content | split: '](https://github.com/' | last | split: ')' | first | prepend: 'https://github.com/' }}" class="pub-badge badge-code" target="_blank">💻 Code</a>
-    {% endif %}
+  <div class="publication-content">
+    <h3><a href="https://doi.org/10.1038/s41467-025-06402-w" target="_blank">Quantification of transcript isoforms at the single-cell level using SCALPEL</a></h3>
+    <p class="authors"><strong>Ake, F.</strong>, Schilling, M., Fernández-Moya, S.M., Jaya Ganesh, A., et al.</p>
+    <p class="venue">Nature Communications, 2025</p>
+    <p class="summary">A computational framework for quantifying transcript isoforms at single-cell resolution, enabling detailed analysis of isoform diversity and regulation in complex biological systems.</p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1038/s41467-025-06402-w" target="_blank">Paper</a>
+      <a href="https://doi.org/10.1038/s41467-025-06402-w" target="_blank">DOI</a>
+      <a href="https://scholar.google.com/scholar?cluster=10917701514698494990" target="_blank">Scholar</a>
+      <a href="https://github.com/plasslab/SCALPEL" target="_blank">Code</a>
+    </p>
   </div>
 </div>
-{% endfor %}
+
+<div class="publication-item">
+  <div class="publication-thumbnail">
+    <img src="/images/publications/methanol.png" alt="Methanol fixation publication" onerror="this.style.display='none'">
+  </div>
+  <div class="publication-content">
+    <h3><a href="https://doi.org/10.1038/s42003-023-04900-4" target="_blank">Methanol fixation is the method of choice for droplet-based single-cell transcriptomics of neural cells</a></h3>
+    <p class="authors">Gutiérrez-Franco, A., <strong>Ake, F.</strong>, Hassan, M.N., Cayuela, N.C., Mularoni, L., Plass, M.</p>
+    <p class="venue">Communications Biology, 2023</p>
+    <p class="summary">Systematic comparison of fixation methods for droplet-based single-cell RNA sequencing reveals methanol as the optimal choice for preserving transcriptional profiles in neural cells.</p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1038/s42003-023-04900-4" target="_blank">Paper</a>
+      <a href="https://doi.org/10.1038/s42003-023-04900-4" target="_blank">DOI</a>
+      <a href="https://scholar.google.com/scholar?cluster=324868858292136614" target="_blank">Scholar</a>
+    </p>
+  </div>
+</div>
+
+</div>
