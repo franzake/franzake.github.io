@@ -30,23 +30,16 @@ Additionally, I briefly worked as AI Biology expert at the AI startup [Mercor](h
 
 ## Featured Talks
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:22px;">
-<div>
-<iframe width="100%"
-src="https://www.youtube.com/embed/vvmfF6eCkEE"
-title="Nextflow Summit Boston"
-frameborder="0"
-allowfullscreen>
-</iframe>
-</div>
+<div style="display:flex; gap:18px; flex-wrap:wrap;">
 
-<div>
-<iframe width="100%"
-src="https://www.youtube.com/embed/TAW2ChFlluA"
-title="StandUp Science"
-frameborder="0"
-allowfullscreen>
-</iframe>
-</div>
+<a href="https://www.youtube.com/watch?v=vvmfF6eCkEE" target="_blank">
+<img src="https://img.youtube.com/vi/vvmfF6eCkEE/hqdefault.jpg"
+style="width:260px; height:150px; object-fit:cover; border-radius:8px;">
+</a>
+
+<a href="https://www.youtube.com/watch?v=TAW2ChFlluA" target="_blank">
+<img src="https://img.youtube.com/vi/TAW2ChFlluA/hqdefault.jpg"
+style="width:260px; height:150px; object-fit:cover; border-radius:8px;">
+</a>
 
 </div>
