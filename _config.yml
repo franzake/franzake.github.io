@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Franz Arnold Ake"
 title_separator          : "-"
-name                     : &name "Franz Ake"
-description              : &description "Computational biologist specializing in single-cell transcriptomics, alternative polyadenylation, and isoform regulation"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Franz Arnold Ake"
+description              : &description "Franz Arnold Ake is a computational biologist and postdoctoral research scientist at Stanford University, specializing in single-cell transcriptomics, alternative polyadenylation, isoform regulation, spatial transcriptomics, cancer genomics, and reproducible bioinformatics workflows."
 url                      : https://franzake.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,12 +24,12 @@ repository               : "franzake/franzake.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Franz Ake"
+  name             : "Franz Arnold Ake"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral research scientist, Department of Pathology, Stanford"
+  bio              : "Postdoctoral research scientist, Department of Pathology, Stanford University"
   location         : "Stanford, California"
   employer         : "Stanford University"
-  uri              : # URL
+  uri              : "https://med.stanford.edu/profiles/franz-arnold-ake"
   email            : "franzake@stanford.edu" 
 
   # Academic websites
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username - Add when ready
+  linkedin         : "Franz-Arnold AKE, PhD"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
