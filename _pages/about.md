@@ -9,11 +9,11 @@ redirect_from:
 
 Hello !
 
-I am a Postdoctoral research scientist at Stanford - Department of Pathology, where my current research focuses on multi-omics data integration, spatial transcriptomics, and cancer genomics to study tumor biology,tissue heterogeneity, and disease-associated molecular programs from high-dimensional sequencing data.
+I am a Postdoctoral research scientist at [Stanford](https://www.stanford.edu), where my current research focuses on multi-omics data integration, spatial transcriptomics, and cancer genomics to study tumor biology, tissue heterogeneity, and disease-associated molecular programs from sequencing data.
 
-Previously, during my PhD study under the mentorship of Dr. Mireya Plass at the IDIBELL Research Institute and P-CMR[C] group in Barcelona, Spain, I developed computational approaches for isoform quantification and differential isoform usage analysis characterization at single-cell resolution.
+Previously, during my PhD under the mentorship of Dr. [Mireya Plass](https://www.plasslab.com/members.html) at the [IDIBELL Research Institute](https://idibell.cat/en/) and [P-CMR[C]](https://p-cmrc.cat) group in Barcelona, Spain, I developed computational approaches for isoform quantification and differential isoform usage analysis characterization at single-cell resolution.
 
-Additionally, I briefly worked as AI Biology expert at the AI startup Mercor, where I trained AI models for performing currents bioinformatic tasks, INRAe public research institute (Toulouse, France) & at LNHE EDF-lab (Chatou, France)
+Additionally, I briefly worked as AI Biology expert at the AI startup [Mercor](https://www.mercor.com/apex/apex-agents-leaderboard/), where I trained AI models for performing currents bioinformatic tasks, [INRAe](https://www.inrae.fr/en) public research institute (Toulouse, France) & at [LNHE EDF-lab](https://www.edf.fr/en/the-edf-group/innovating-for-the-future/rd-global-expertise/our-activities) (Chatou, France)
 
 
 ## Research Interests
@@ -32,7 +32,7 @@ Additionally, I briefly worked as AI Biology expert at the AI startup Mercor, wh
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:20px;">
 <div>
-<iframe width="100%" height="220"
+<iframe width="100%" height="70"
 src="https://www.youtube.com/embed/vvmfF6eCkEE"
 title="Nextflow Summit Boston"
 frameborder="0"
@@ -42,7 +42,7 @@ allowfullscreen>
 </div>
 
 <div>
-<iframe width="100%" height="220"
+<iframe width="100%" height="70"
 src="https://www.youtube.com/embed/VIDEO_ID"
 title="Conference Talk"
 frameborder="0"
@@ -53,7 +53,7 @@ Short description of the talk.
 </div>
 
 <div>
-<iframe width="100%" height="220"
+<iframe width="100%" height="70"
 src="https://www.youtube.com/embed/VIDEO_ID"
 title="Conference Talk"
 frameborder="0"
