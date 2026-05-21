@@ -245,34 +245,6 @@ author_profile: true
     <img src="https://raw.githubusercontent.com/plasslab/SCALPEL/main/docs/SCALPEL_diagram.png" alt="SCALPEL Pipeline Workflow">
   </div>
   
-  <div class="features-section">
-    <h3>Key Features</h3>
-    <ul class="features-list">
-      <li>Isoform quantification at single-cell resolution</li>
-      <li>Alternative polyadenylation site identification and analysis</li>
-      <li>Differential isoform usage analysis across cell types</li>
-      <li>Reproducible Nextflow workflows with full containerization</li>
-      <li>Scalable execution on HPC clusters and cloud platforms</li>
-      <li>Integration with 10x Chromium and Drop-seq platforms</li>
-      <li>Comprehensive quality control and visualization modules</li>
-      <li>nf-core-oriented design principles</li>
-    </ul>
-  </div>
-  
-  <div class="tech-section">
-    <h3>Technologies</h3>
-    <div class="tech-pills">
-      <span class="tech-pill">Nextflow</span>
-      <span class="tech-pill">Python</span>
-      <span class="tech-pill">R</span>
-      <span class="tech-pill">Docker</span>
-      <span class="tech-pill">Singularity</span>
-      <span class="tech-pill">scRNA-seq</span>
-      <span class="tech-pill">Bioconductor</span>
-      <span class="tech-pill">HPC/Cloud</span>
-    </div>
-  </div>
-  
   <div class="project-links">
     <a href="https://github.com/plasslab/SCALPEL" class="project-link" target="_blank">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: text-bottom; margin-right: 6px;">
