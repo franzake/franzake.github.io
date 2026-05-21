@@ -8,17 +8,11 @@ main:
   - title: "About"
     url: /
 
-  - title: "Research"
-    url: /research/
-
   - title: "Publications"
     url: /publications/
 
   - title: "Software"
     url: /software/
-    
-  - title: "Projects"
-    url: /projects/
     
   - title: "CV"
     url: /cv/
