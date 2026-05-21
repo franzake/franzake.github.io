@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: 
 author_profile: true
 redirect_from: 
   - /about/
@@ -43,24 +43,13 @@ allowfullscreen>
 
 <div>
 <iframe width="100%" height="70"
-src="https://www.youtube.com/embed/VIDEO_ID"
-title="Conference Talk"
+src="https://www.youtube.com/watch?v=TAW2ChFlluA&pp=ygUJZnJhbnogYWtl"
+title="StandUp Science"
 frameborder="0"
 allowfullscreen>
 </iframe>
 **Conference Title**  
-Short description of the talk.
-</div>
-
-<div>
-<iframe width="100%" height="70"
-src="https://www.youtube.com/embed/VIDEO_ID"
-title="Conference Talk"
-frameborder="0"
-allowfullscreen>
-</iframe>
-**Conference Title**  
-Short description of the talk.
+IDIBELL StandUp Science talks
 </div>
 
 </div>
